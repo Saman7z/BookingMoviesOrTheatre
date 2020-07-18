@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Welcome | Book Your Seat</title>
+  </head>
+  <body>
+      <div class="alert-container">
+          <div class="alert">
+                <p id="alert-msg">Seats Got Added Successfully !</p><span class="alert-close-btn">&times;</span>
+          </div>
+      </div>
+    <div class="booking-section-container">
+      <div class="booking-section">
+
+        <div class="movie-selector">
+          <h1>Select A Movie To Watch </h1>
+          <select id="movies">
+            <option value="6">Inception <span class="price" >($6)</span></option>
+            <option value="8">The Dark Knight <span class="price">($8)</span></option>
+            <option value="10">Scarface <span class="price">($10)</span></option>
+            <option value="12">Interstellar <span class="price">($12)</span></option>
+          </select>
+        </div>
+        <h1>Book Your Seats</h1>
+       
+        <div class="screen-container"><div class="screen">screen</div></div>
+        
+        <div class="seat-section">
+            <div class="row-seats">
+                <div class="seats "></div>
+                <div class="seats "></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats "></div>
+                <div class="seats "></div>
+            </div>
+            <div class="row-seats">
+                <div class="seats occupied"></div>
+                <div class="seats occupied"></div>
+                <div class="seats"></div>
+                <div class="seats "></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+            </div>
+            <div class="row-seats">
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats "></div>
+                <div class="seats "></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+            </div>
+            <div class="row-seats">
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats occupied"></div>
+                <div class="seats occupied"></div>
+            </div>
+            <div class="row-seats">
+                <div class="seats"></div>
+                <div class="seats occupied"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+            </div>
+            <div class="row-seats">
+                <div class="seats"></div>
+                <div class="seats " ></div>
+                <div class="seats "></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats"></div>
+                <div class="seats occupied"></div>
+                <div class="seats occupied"></div>
+            </div>
+        </div>
+
+        <div class="inform-text">
+            <p>
+                You have selected <span class="seat-count">0</span> seats for a price of <span class="red-color">$</span><span class="total-price">0</span>
+            </p>
+        </div>
+
+        <div class="submit-btn">
+            <button>Book <span class="book-count">0</span> seats</button>
+        </div>
+        <div class="seclection-guide"><div>
+            <div class="seats guide"></div> <p>N/A</p></div>
+            <div><div class="seats selected guide"></div> <p>Selected</p></div>
+            <div><div class="seats occupied guide"></div> <p>Occupied</p></div>
+        </div>
+      </div>
+      <div class="clear-btn">
+          &times;
+          <div class="close-btn-tooltip">
+              Clears Cache
+          </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
