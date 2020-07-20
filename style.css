@@ -22,7 +22,7 @@ body {
 }
 .alert {
   text-align: center;
-  max-width: 700px;
+  max-width: 60vw;
   background-color: rgb(224, 255, 247);
   color: green;
   position: fixed;
@@ -32,7 +32,8 @@ body {
   font-size: 1.6rem;
   font-weight: bold;
   top: 50%;
-  left: 30vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .alert-msg {
   position: relative;
@@ -203,7 +204,7 @@ select {
   border-radius: 16px;
   display: none;
   transition: all 1.2s;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .clear-btn:hover .close-btn-tooltip {
   display: block;
@@ -212,20 +213,19 @@ h1 {
   padding: 3rem;
   text-align: center;
 }
-@media (max-width: 1150px) {
+@media (max-width: 1360px) {
     .alert {
         text-align: center;
-        max-width: 700px;
+        max-width: 70vw;
         background-color: rgb(224, 255, 247);
         color: green;
         position: fixed;
         z-index: 6;
         border-radius: 20px;
         padding: 2rem 5rem;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: bold;
-        top: 50%;
-        left: 25vw;
+        
       }
 }
 @media (max-width: 860px) {
@@ -254,7 +254,7 @@ h1 {
   }
   .close-btn-tooltip {
     width: 12rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .alert {
     text-align: center;
@@ -266,9 +266,7 @@ h1 {
     border-radius: 20px;
     padding: 2rem 5rem;
     font-size: 1.2rem;
-    font-weight: bold;
-    top: 50%;
-    left: 20vw;
+  
   }
   select {
     padding: 1rem 2rem;
@@ -283,17 +281,16 @@ h1 {
 @media (max-width: 750px){
     .alert {
         text-align: center;
-        max-width: 700px;
+        max-width: 70vw;
         background-color: rgb(224, 255, 247);
         color: green;
         position: fixed;
         z-index: 6;
-        border-radius: 20px;
+        border-radius: 18px;
         padding: 2rem 5rem;
         font-size: 1.1rem;
         font-weight: bold;
-        top: 50%;
-        left: 10vw;
+      
       }
 }
 @media (max-width: 560px) {
@@ -367,17 +364,16 @@ h1 {
       }
       .alert {
         text-align: center;
-        max-width: 700px;
+        max-width: 90vw;
         background-color: rgb(224, 255, 247);
         color: green;
         position: fixed;
         z-index: 6;
-        border-radius: 20px;
-        padding: 1rem 3rem;
-        font-size: 0.9rem;
+        border-radius: 13px;
+        padding: 1rem 2rem;
+        font-size: 0.7rem;
         font-weight: bold;
-        top: 50%;
-        left: 15px;
+       
       }
       .alert-close-btn {
         position: absolute;
